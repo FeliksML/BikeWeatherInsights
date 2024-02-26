@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  postgres:
+    container_name: database
+    image: postgres:latest
+    restart: always
+    volumes:
+      - ./createdb.sql:/docker-entrypoint-initdb.d/createdb.sql
+      - ./data:/var/lib/postgresql/data1
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgre
