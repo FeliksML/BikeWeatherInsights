@@ -1,7 +1,7 @@
-# BikeWeatherInsights 
-## Project Structure
+# Bike Rental Data Management 📊 🚲
+## Project Structure 🧬
 
-This project is structured as follows, providing a clear overview of its components and their roles:
+This project is structured as follows:
 
 - `README.md`: Project overview and setup instructions.
 - `compose.yml`: Docker compose file for setting up the local environment.
@@ -18,7 +18,6 @@ This project is structured as follows, providing a clear overview of its compone
 - `restart.sh`: Script to restart the project setup.
 - `script.ipynb`: Jupyter notebook with data analysis scripts.
 
-### Project Objective
-
+### Project Objective 🎯
 In this project, we aim to load data from CSV files into Pandas DataFrames to inspect and clean the data before loading it into a PostgreSQL server. This process is critical for ensuring data integrity and usability for analysis.
 
